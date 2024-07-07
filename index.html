@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit webside</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="shortcut icon" href="B8A3-fruit-brust/images/icons8-watermelon-16.png" type="image/x-icon" class="">
+    <!-- tailwind config -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                backgroundImage: {
+        custom1: 'linear-gradient(180deg, #121212 -14.42%, rgba(18, 18, 18, 0) 100%)',
+      },
+              colors: {
+                clifford: '#da373d',
+                redish: '#F85559',
+              }
+            }
+          }
+        }
+      </script>
+      <!-- font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+      <style>
+        .lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+      </style>
+</head>
+
+<body>
+    <header class="max-w-4xl mx-auto">
+        <nav>
+
+        </nav>
+        <div>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+
+                        <div class="relative">
+                            <img src="B8A3-fruit-brust/images/banner1.png" class="w-full" />
+                            <div class="absolute inset-0 bg-custom1 bg-opacity-50 flex items-center justify-center flex-col text-center gap-3">
+                                <h2 class="text-4xl lato-black text-white">Exotic tastes at your<br>doorstep</h2>
+                                <button class="btn bg-redish text-sm border-0 text-white">Shop Now</button>
+                              </div>
+                        </div>
+                       
+
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="relative">
+                        <img src="B8A3-fruit-brust/images/banner2.png" class="w-full" />
+                        <div class="absolute inset-0 bg-custom1 bg-opacity-50 flex items-center justify-center flex-col text-center gap-3">
+                            <h2 class="text-4xl lato-black text-white">Exotic tastes at your<br>doorstep</h2>
+                            <button class="btn bg-redish text-sm border-0 text-white">Shop Now</button>
+                          </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="relative">
+                        <img src="B8A3-fruit-brust/images/banner3.png" class="w-full" />
+                        <div class="absolute inset-0 bg-custom1 bg-opacity-50 flex items-center justify-center flex-col text-center gap-3">
+                            <h2 class="text-4xl lato-black text-white">Exotic tastes at your<br>doorstep</h2>
+                            <button class="btn bg-redish text-sm border-0 text-white">Shop Now</button>
+                          </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="relative">
+                        <img src="B8A3-fruit-brust/images/banner4.png" class="w-full" />
+                        <div class="absolute inset-0 bg-custom1 bg-opacity-50 flex items-center justify-center flex-col text-center gap-3">
+                            <h2 class="text-4xl lato-black text-white">Exotic tastes at your<br>doorstep</h2>
+                            <button class="btn bg-redish text-sm border-0 text-white">Shop Now</button>
+                          </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
